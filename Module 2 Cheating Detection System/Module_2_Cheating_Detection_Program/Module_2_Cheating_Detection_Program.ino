@@ -19,11 +19,11 @@ const int ledLDR = A1;     // LDR LED
 
 // --- LDR ---
 const int ldrPin = A0;     // LDR analog input
-int ldrThreshold = 700;    // Adjust based on ambient light
+int ldrThreshold = 600;    // Adjust based on ambient light
 
 // --- Variables ---
 float distance1, distance2;
-const float threshold = 15.0; // cm ultrasonic threshold
+const float threshold = 16.0; // cm ultrasonic threshold
 
 // --- Hold times (in ms) ---
 const unsigned long ledHoldTime = 2000;   // LEDs stay ON for 2s
