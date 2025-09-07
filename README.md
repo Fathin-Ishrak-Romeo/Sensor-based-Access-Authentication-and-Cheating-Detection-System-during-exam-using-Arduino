@@ -25,12 +25,16 @@
 4. Connect the Arduino with the whole setup to the PC's USB port.
 5. Go to: Tools > Board > Arduino AVR Boards > Select: Arduino UNO.
 6. Go to: Tools > Port > Select the port to which the Arduino is connected (If multiple ports are shown, try connecting one by one to find out the actual port).
-7. Now open the [RFID_UID_Program](Module 1 Access Authentication System/RFID_UID_Program/RFID_UID_Program.ino) file in Arduino IDE & upload it.
+7. Now open the [RFID_UID_Program](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/RFID_UID_Program/RFID_UID_Program.ino) file in Arduino IDE & upload it.
 8. Open the serial monitor from the top right of the Arduino IDE.
 9. It will ask to Scan your RFID card.
 10. Scan any of the RFID tags that you want to make the key.
 11. Copy the UID that appears in the serial monitor.
-12. Now open the 
+12. Now open the [Student_Access_Authentication_Program](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/Student_Access_Authentication_Program/Student_Access_Authentication_Program.ino) file.
+13. Look for the variable named "String MasterTag" and replace the value in the variable with the previously copied UID.
+14. Save the program.
+15. Upload it.
+16. 
 
 
 # License
