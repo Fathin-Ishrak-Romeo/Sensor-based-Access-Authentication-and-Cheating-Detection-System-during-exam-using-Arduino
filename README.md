@@ -16,8 +16,10 @@
 
 # How to 
 ## Module 1: Access Authentication System
-1. Make sure the circuit below is built first before uploading the code
+1. Make sure the circuit below is built first before uploading the code </br>
+
 <img src="Module 1 Access Authentication System/Student Access Authentication System Circuit.PNG" alt="Student Access Authentication System Circuit Diagram" width="700"> </br>
+
 2. Connect the Arduino to the PC's USB port
 3. Open Arduino IDE
 4. Go to: Tools > Board > Arduino AVR Boards > Select: Arduino UNO
