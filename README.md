@@ -16,12 +16,14 @@
 
 # How to 
 ## Module 1: Access Authentication System
-### Step 1: Make sure the circuit below is built first before uploading the code
+1. Make sure the circuit below is built first before uploading the code
 <img src="Module 1 Access Authentication System/Student Access Authentication System Circuit.PNG" alt="Student Access Authentication System Circuit Diagram" width="700"> </br>
-### Step 2: Connect the Arduino to the PC
-### Step 3: Open Arduino IDE
-### Step 4: Go to: Tools > Manage Libraries > Search: "MFRC522 by Github Community" > Select Version: 1.4.10 > Install
-### Step 4: 
+2. Connect the Arduino to the PC's USB port
+3. Open Arduino IDE
+4. Go to: Tools > Board > Arduino AVR Boards > Select: Arduino UNO
+5. Go to: Tools > Port > Select the port to which the Arduino is connected (If multiple ports are shown, try connecting one by one to find out the actual port)
+6. Go to: Tools > Manage Libraries > Search: "MFRC522 by Github Community" > Select Version: 1.4.10 > Install
+7. 
 
 
 # License
