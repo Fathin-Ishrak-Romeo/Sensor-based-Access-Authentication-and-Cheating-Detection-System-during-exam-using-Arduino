@@ -14,7 +14,7 @@
 
 
 
-# How to 
+# Full Setup & Installation Guidelines:
 ## Module 1: Access Authentication System
 1. Make sure the circuit below is built first before uploading the code. </br>
 
@@ -34,7 +34,9 @@
 13. Look for the variable named "String MasterTag" and replace the value in the variable with the previously copied UID.
 14. Save the program.
 15. Upload it.
-16. 
+16. Open the [I2C_Scanner_Program_for_LCD_Display](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/I2C_Scanner_Program_for_LCD_Display/I2C_Scanner_Program_for_LCD_Display.ino) file & upload it.
+17. Open the serial monitor from the top right of the Arduino IDE.
+18. 
 
 
 # License
