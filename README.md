@@ -4,7 +4,7 @@ During written exams, teachers cannot constantly monitor every student; unauthor
 ---
 
 # Objective: 
-Build a prototype Smart Desk that (1) ensures only the authorized student can unlock and sit at a dedicated desk using RFID technology; and (2) during the exam, detects and signals to the teacher when a student looks left/right/front/back beyond a set distance or uses a concealed phone under the desk.
+Build a cost-efficient sensor-based prototype smart desk that (1) ensures only the authorized student can unlock and sit at a dedicated desk using RFID technology; and (2) during the exam, detects and signals to the teacher when a student looks left/right/front/back beyond a set distance or uses a concealed phone under the desk.
 
 
 ---
