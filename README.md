@@ -90,6 +90,8 @@
 11. If you power the setup using a PC, then in the Arduino IDE, connect the port and open the serial monitor to see the real-time sensors' status.
 12. To adjust the ultrasonic sensors' range and the LDR sensor's threshold, look for the "ldrThreshold" & "threshold" in the code. NOTE: The IDR sensor's threshold value should be within 0 to 1023. </br>
 ![Description](images/13.png)
+13. To adjust the range of the IR obstacle sensor modules, rotate the potentiometer attached to the module.
+
    
 -----
 
