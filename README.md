@@ -1,3 +1,13 @@
+# Problem & Motivation: 
+During written exams, teachers cannot constantly monitor every student; unauthorized student access, unallocated seat occupying, and subtle cheating (looking at neighbors, using hidden phones) remain problems. A compact desk-attached system that enforces seat assignment and detects suspicious movement/light signatures can assist proctoring.
+
+---
+
+# Objective: 
+Build a prototype Smart Desk that (1) ensures only the authorized student can unlock and sit at a dedicated desk using RFID technology; and (2) during the exam, detects and signals to the teacher when a student looks left/right/front/back beyond a set distance or uses a concealed phone under the desk.
+
+
+---
 
 # Components List
 ## Electronic Components:
