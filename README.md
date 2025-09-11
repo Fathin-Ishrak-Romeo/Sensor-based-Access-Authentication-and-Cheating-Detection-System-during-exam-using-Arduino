@@ -34,8 +34,7 @@
 <img src="Module 1 Access Authentication System/Student Access Authentication System Circuit.PNG" alt="Student Access Authentication System Circuit Diagram" width="700"> </br>
 
 2. Open Arduino IDE.
-3. Go to: Tools > Boards Manager. </br>
-![Description](images/10.png)
+3. Go to: Tools > Boards Manager. </br> <img src="images/10.png" alt="10" width="360">
 4. Search: "Arduino AVR Boards by Arduino" > Select Version: 1.8.6 > Install. </br>
 ![Description](images/8.png)
 5. Go to: Tools > Board> Manage Libraries > Search: "MFRC522 by Github Community" > Select Version: 1.4.10 > Install. </br>
@@ -43,15 +42,13 @@
 6. Go to: Tools > Manage Libraries > Search: "LiquidCrystal_I2C by Martin Kobuvvcik, Frank de Brabander" > Select Version: 2.0.0 > Install. </br>
 ![Description](images/2.png)
 8. Connect the Arduino to the PC's USB port with the whole circuit setup.
-9. Go to: Tools > Board > Arduino AVR Boards > Select: Arduino UNO.
-![Description](images/3.png)
+9. Go to: Tools > Board > Arduino AVR Boards > Select: Arduino UNO. </br> <img src="images/3.png" alt="3" width="500">
 10. Go to: Tools > Port > Select the port to which the Arduino is connected (If multiple ports are shown, try connecting one by one to find the actual port).
 11. Now open the [RFID_UID_Program.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/RFID_UID_Program/RFID_UID_Program.ino) file in Arduino IDE & upload it.
 12. Open the serial monitor from the top right of the Arduino IDE.
 13. It will ask to Scan your RFID card.
 14. Scan any of the RFID tags that you want to make the key.
-15. Copy the UID that appears in the serial monitor. </br>
-![Description](images/4.png)
+15. Copy the UID that appears in the serial monitor. </br> <img src="images/4.png" alt="4" width="200">
 17. Now open the [Student_Access_Authentication_Program.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/Student_Access_Authentication_Program/Student_Access_Authentication_Program.ino) file in Arduino IDE.
 18. Look for the variable named "String MasterTag" and replace the value in the variable with the previously copied UID. </br>
 ![Description](images/5.png)
@@ -59,8 +56,7 @@
 21. Upload it.
 22. Open the [I2C_Scanner_Program_for_LCD_Display.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/I2C_Scanner_Program_for_LCD_Display/I2C_Scanner_Program_for_LCD_Display.ino) file in Arduino IDE & upload it.
 23. Open the serial monitor from the top right of the Arduino IDE.
-24. Copy the I2C address of the display (e.g. 0x27, 0x38, 0x39, 0x42, etc.) </br>
-![Description](images/7.png)
+24. Copy the I2C address of the display (e.g. 0x27, 0x38, 0x39, 0x42, etc.) </br> <img src="images/7.png" alt="7" width="250">
 26. Now open the [Student_Access_Authentication_Program.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/Student_Access_Authentication_Program/Student_Access_Authentication_Program.ino) file in Arduino IDE.
 27. Look for the function named "LiquidCrystal_I2C lcd" and replace the first parameter with the previously copied I2C address. </br>
 ![Description](images/6.png)
@@ -75,15 +71,12 @@
 <img src="Module 2 Cheating Detection System/Cheating Detection System Circuit.png" alt="Cheating Detection System" width="700"> </br>
 1. Connect the Arduino to the PC's USB port with the whole circuit setup.
 2. Open Arduino IDE.
-3. Go to: File > Preferences > Paste this link https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json within the "Additional board manager URLs" section > Click "OK".
-![Description](images/9.png)
-4. Go to: Tools > Board > Boards Manager. </br>
-![Description](images/10.png)
+3. Go to: File > Preferences > Paste this link https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json within the "Additional board manager URLs" section > Click "OK". </br> <img src="images/9.png" alt="9" width="550">
+4. Go to: Tools > Board > Boards Manager. </br> <img src="images/10.png" alt="10" width="360">
 5. Search: "MiniCore by MCUdude" > Select Version: 2.1.3 > Install. </br>
 ![Description](images/11.png)
 6. Open the [Module_2_Cheating_Detection_Program.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%202%20Cheating%20Detection%20System/Module_2_Cheating_Detection_Program/Module_2_Cheating_Detection_Program.ino) file in Arduino IDE.
-7. Go to: Tools > Board > MiniCore > Select: "ATmege328"
-![Description](images/12.png)
+7. Go to: Tools > Board > MiniCore > Select: "ATmege328". </br> <img src="images/12.png" alt="12" width="500">
 8. Go to: Tools > Port > Select the port to which the Arduino is connected (If multiple ports are shown, try connecting one by one to find the actual port).
 9. Upload it.
 10. Now, power the whole setup by connecting the Arduino cable to a 5V power source or PC, or by connecting the "Vin" pin of the Arduino UNO to the +ve terminal of a 5V power source and any of the "GND" pins to the -ve terminal of the power source.
