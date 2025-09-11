@@ -22,7 +22,7 @@
 2. Open Arduino IDE.
 3. Go to: Tools > Manage Libraries > Search: "MFRC522 by Github Community" > Select Version: 1.4.10 > Install. </br>
 ![Description](images/1.png)
-5. Go to: Tools > Manage Libraries > Search: "LiquidCrystal_I2C by Martin Kobuvvcik, Frank de Brabander" > Select Version: 2.0.0 > Install.
+5. Go to: Tools > Manage Libraries > Search: "LiquidCrystal_I2C by Martin Kobuvvcik, Frank de Brabander" > Select Version: 2.0.0 > Install. </br>
 ![Description](images/2.png)
 7. Connect the Arduino to the PC's USB port with the whole circuit setup.
 8. Go to: Tools > Board > Arduino AVR Boards > Select: Arduino UNO.
