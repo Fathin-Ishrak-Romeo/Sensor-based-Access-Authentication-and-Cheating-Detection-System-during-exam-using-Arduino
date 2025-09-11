@@ -29,7 +29,7 @@
 ---
 
 # Full Setup & Installation Guidelines (Module-wise & Step by Step)
-## Module 1: Access Authentication System
+## Module 1: Student Access Authentication System
 1. Ensure the circuit below is built before uploading the code. </br>
 <img src="Module 1 Access Authentication System/Student Access Authentication System Circuit.PNG" alt="Student Access Authentication System Circuit Diagram" width="700"> </br>
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Module 2 Cheating Detection System
+## Module 2: Cheating Detection System
 1. Ensure the circuit below is built before uploading the code. </br>
 <img src="Module 2 Cheating Detection System/Cheating Detection System Circuit.png" alt="Cheating Detection System" width="700"> </br>
 1. Connect the Arduino to the PC's USB port with the whole circuit setup.
