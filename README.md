@@ -1,5 +1,5 @@
-# Components List
 
+# Components List
 ## Electronic Components:
 1. Arduino UNO x2
 2. RFID MFRC522 x1
@@ -28,19 +28,21 @@
 
 ---
 
-# Full Setup & Installation Guidelines (Module-wise & Step by Step):
+# Full Setup & Installation Guidelines (Module-wise & Step by Step)
 ## Module 1: Access Authentication System
 1. Ensure the circuit below is built before uploading the code. </br>
 <img src="Module 1 Access Authentication System/Student Access Authentication System Circuit.PNG" alt="Student Access Authentication System Circuit Diagram" width="700"> </br>
 
 2. Open Arduino IDE.
-3. Go to: Tools > Manage Libraries > Search: "MFRC522 by Github Community" > Select Version: 1.4.10 > Install. </br>
-![Description](images/1.png)
-5. Go to: Tools > Manage Libraries > Search: "LiquidCrystal_I2C by Martin Kobuvvcik, Frank de Brabander" > Select Version: 2.0.0 > Install. </br>
-![Description](images/2.png)
-6. Go to: Tools > Manage Libraries > Search: "Arduino AVR Boards by Arduino" > Select Version: 1.8.6 > Install. </br>
+3. Go to: Tools > Boards Manager. </br>
+![Description](images/10.png)
+4. Search: "Arduino AVR Boards by Arduino" > Select Version: 1.8.6 > Install. </br>
 ![Description](images/8.png)
-7. Connect the Arduino to the PC's USB port with the whole circuit setup.
+5. Go to: Tools > Board> Manage Libraries > Search: "MFRC522 by Github Community" > Select Version: 1.4.10 > Install. </br>
+![Description](images/1.png)
+6. Go to: Tools > Manage Libraries > Search: "LiquidCrystal_I2C by Martin Kobuvvcik, Frank de Brabander" > Select Version: 2.0.0 > Install. </br>
+![Description](images/2.png)
+8. Connect the Arduino to the PC's USB port with the whole circuit setup.
 9. Go to: Tools > Board > Arduino AVR Boards > Select: Arduino UNO.
 ![Description](images/3.png)
 10. Go to: Tools > Port > Select the port to which the Arduino is connected (If multiple ports are shown, try connecting one by one to find out the actual port).
@@ -73,7 +75,10 @@
 2. Open Arduino IDE.
 3. Go to: File > Preferences > Paste this link https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json within the "Additional board manager URLs" section > Click "OK".
 ![Description](images/9.png)
-
+4. Go to: Tools > Board > Boards Manager. </br>
+![Description](images/10.png)
+5. Search: "MiniCore by MCUdude" > Select Version: 2.1.3 > Install. </br>
+![Description](images/11.png)
 
 -----
 
