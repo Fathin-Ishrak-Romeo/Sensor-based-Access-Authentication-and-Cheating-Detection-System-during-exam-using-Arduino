@@ -19,7 +19,7 @@ const int ledLDR = A1;     // LDR LED
 
 // --- LDR ---
 const int ldrPin = A0;     // LDR analog input
-int ldrThreshold = 600;    // Adjust based on ambient light
+int ldrThreshold = 600;    // Adjust based on ambient light (Ranging from 0 to 1023)
 
 // --- Variables ---
 float distance1, distance2;
