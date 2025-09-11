@@ -14,7 +14,7 @@
 
 
 
-# Full Setup & Installation Guidelines:
+# Full Setup & Installation Guidelines (Module-wise & Step by step):
 ## Module 1: Access Authentication System
 1. Ensure the circuit below is built before uploading the code. </br>
 
