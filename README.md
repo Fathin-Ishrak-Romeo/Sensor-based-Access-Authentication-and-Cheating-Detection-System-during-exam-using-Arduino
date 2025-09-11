@@ -47,6 +47,14 @@ This subsystem ensures that cheating attempts are quickly recognized without the
 
 ---
 
+# Communication Protocols Used
+1. SPI → used for fast & reliable communication between the Arduino UNO and the RFID reader.
+2. I²C → used for efficient LCD display control with minimal pins.
+3. GPIO (digital/analog) → used for simple and low-cost communication to all sensors, LEDs, buzzer, and servo.
+
+
+---
+
 # Components List
 ## Electronic Components:
 1. Arduino UNO x2
