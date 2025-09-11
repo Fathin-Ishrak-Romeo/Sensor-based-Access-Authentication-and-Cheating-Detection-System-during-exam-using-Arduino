@@ -1,16 +1,30 @@
 # Components List
+
+## Electronic Components:
 1. Arduino UNO x2
-2. RFID MFRC522
+2. RFID MFRC522 x1
 3. RFID Tags x2(at least)
-4. 16x2 LCD Display
-5. I2C Module for LCD Display
-6. SG90 Servo
+4. 16x2 LCD Display x1
+5. I2C Module for LCD Display x1
+6. SG90 Servo x1
 7. Buzzer x2
-8. Different Color LED x9 ()
+8. Different Color LED x9 (different colors according to preference)
 9. Resistor (220 Ohm) x3
-10. Breadboard: Large 1x OR Medium 2x
-11. Jumper Wire (Male to Male, Male to Female)
-12. Electric Wire
+10. Resistor (10k Ohm) x1
+11. Breadboard: Large 1x OR Medium 2x
+12. Jumper Wire (Male to Male, Male to Female) x2(each)
+13. Electric Wire (approx 10 feet)
+14. HC SR 04 Ultrasonic Sensor x2
+15. IR Obstacle Sensor Module x2
+16. LDR sensor (5 mm) x1
+
+## Tools:
+1. Glue Gun 
+2. Glue Gun Sticks x4
+3. PVC Board (4 feet by 4 feet) x1 (For building the demo structure)
+4. Anti-cutter
+5. Cable Cutter
+6. Thick Wire (For door lock mechanism)
 
 ---
 
