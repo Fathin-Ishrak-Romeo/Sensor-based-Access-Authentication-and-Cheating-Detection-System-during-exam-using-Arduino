@@ -12,7 +12,7 @@
 11. Jumper Wire (Male to Male, Male to Female)
 12. Electric Wire
 
-
+---
 
 # Full Setup & Installation Guidelines (Module-wise & Step by step):
 ## Module 1: Access Authentication System
@@ -41,7 +41,7 @@
 21. Upload it.
 22. Open the [I2C_Scanner_Program_for_LCD_Display.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/I2C_Scanner_Program_for_LCD_Display/I2C_Scanner_Program_for_LCD_Display.ino) file & upload it.
 23. Open the serial monitor from the top right of the Arduino IDE.
-24. Copy the I2C address of the display (e.g. 0x27, 0x38, 0x39, 0x42, etc.)
+24. Copy the I2C address of the display (e.g. 0x27, 0x38, 0x39, 0x42, etc.) </br>
 ![Description](images/7.png)
 26. Now open the [Student_Access_Authentication_Program.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/Student_Access_Authentication_Program/Student_Access_Authentication_Program.ino) file.
 27. Look for the function named "LiquidCrystal_I2C lcd" and replace the first parameter with the previously copied I2C address. </br>
@@ -50,6 +50,11 @@
 30. Upload it.
 31. Now, power the whole setup by connecting the Arduino cable to a 5V power source or PC, or by connecting the "Vin" pin of the Arduino UNO to the +ve terminal of a 5V power source and any of the "GND" pins to the -ve terminal of the power source.
 
+---
+
+## Module 2 Cheating Detection System
+
+-----
 
 # License
 This project is licensed under the MIT License.
