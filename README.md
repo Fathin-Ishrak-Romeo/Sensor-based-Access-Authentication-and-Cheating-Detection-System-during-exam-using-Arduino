@@ -34,19 +34,20 @@
 14. Scan any of the RFID tags that you want to make the key.
 15. Copy the UID that appears in the serial monitor. </br>
 ![Description](images/4.png)
-
 17. Now open the [Student_Access_Authentication_Program.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/Student_Access_Authentication_Program/Student_Access_Authentication_Program.ino) file.
-18. Look for the variable named "String MasterTag" and replace the value in the variable with the previously copied UID.
-19. Save the program.
-20. Upload it.
-21. Open the [I2C_Scanner_Program_for_LCD_Display.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/I2C_Scanner_Program_for_LCD_Display/I2C_Scanner_Program_for_LCD_Display.ino) file & upload it.
-22. Open the serial monitor from the top right of the Arduino IDE.
-23. Copy the I2C address of the display (e.g. 0x27, 0x38, 0x39, 0x42, etc.)
-24. Now open the [Student_Access_Authentication_Program.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/Student_Access_Authentication_Program/Student_Access_Authentication_Program.ino) file.
-25. Look for the function named "LiquidCrystal_I2C lcd" and replace the first parameter with the previously copied I2C address.
-26. Save the program.
-27. Upload it.
-28. Now, power the whole setup by connecting the Arduino cable to a 5V power source or PC, or by connecting the "Vin" pin of the Arduino UNO to the +ve terminal of a 5V power source and any of the "GND" pins to the -ve terminal of the power source.
+18. Look for the variable named "String MasterTag" and replace the value in the variable with the previously copied UID. </br>
+![Description](images/5.png)
+20. Save the program.
+21. Upload it.
+22. Open the [I2C_Scanner_Program_for_LCD_Display.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/I2C_Scanner_Program_for_LCD_Display/I2C_Scanner_Program_for_LCD_Display.ino) file & upload it.
+23. Open the serial monitor from the top right of the Arduino IDE.
+24. Copy the I2C address of the display (e.g. 0x27, 0x38, 0x39, 0x42, etc.)
+26. Now open the [Student_Access_Authentication_Program.ino](https://github.com/Fathin-Ishrak-Romeo/Sensor-based-Smart-Desk-with-Student-Access-Authentication-System-during-exam-using-Arduino/blob/main/Module%201%20Access%20Authentication%20System/Student_Access_Authentication_Program/Student_Access_Authentication_Program.ino) file.
+27. Look for the function named "LiquidCrystal_I2C lcd" and replace the first parameter with the previously copied I2C address. </br>
+![Description](images/6.png)
+29. Save the program.
+30. Upload it.
+31. Now, power the whole setup by connecting the Arduino cable to a 5V power source or PC, or by connecting the "Vin" pin of the Arduino UNO to the +ve terminal of a 5V power source and any of the "GND" pins to the -ve terminal of the power source.
 
 
 # License
