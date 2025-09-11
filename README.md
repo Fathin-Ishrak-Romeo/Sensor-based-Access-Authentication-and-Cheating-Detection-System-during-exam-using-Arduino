@@ -80,7 +80,7 @@ This subsystem ensures that cheating attempts are quickly recognized without the
 3. PVC Board (4 feet by 4 feet) x1 (For building the demo structure)
 4. Anti-cutter
 5. Cable Cutter
-6. Thick Wire (For door lock mechanism)
+6. Thick Steel Wire (For door lock mechanism)
 
 ---
 
