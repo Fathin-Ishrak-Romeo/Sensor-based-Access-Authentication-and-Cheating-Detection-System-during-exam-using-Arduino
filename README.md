@@ -8,8 +8,8 @@ Build a cost-efficient sensor-based prototype smart desk that (1) ensures only t
 
 ---
 
-# System Architecture
-Two subsystems (modules).
+# System Architecture & Workflow
+Two subsystems (modules)
 
 ### A. Student Access Control Subsystem:
 This subsystem ensures that only the assigned student can use a particular desk.
@@ -27,6 +27,7 @@ This subsystem ensures that only the assigned student can use a particular desk.
      - System status green LED will be off, and another red LED will be lit to indicate unauthorized access.
      - LCD display shows “Access Denied!!”.
      - Servo remains locked.
+- When the student finishes their exam and wants to leave, they must scan their card again to unlock the desk, repeating the same process.
 - The LCD is placed on the teacher’s desk so supervisors can monitor student entry and exit in real time.
 - Status LEDs, servo, and the RFID scanner are placed on the student's desk.
 
@@ -38,7 +39,7 @@ This subsystem continuously monitors student behaviour during the exam to detect
      - One LDR sensor: Detects abnormal brightness under the desk, such as a hidden mobile phone.
      - Processing: Arduino checks all sensor values against predefined thresholds. If a threshold is crossed, it identifies the direction or activity of the suspicious behaviour.
 - Outputs:
-     - A buzzer sound (short alert) to immediately notify the teacher.
+     - A loud buzzer sound (short alert) to immediately notify the teacher.
      - A common LED and a corresponding LED (left, right, front, back, or phone indicator) lights up on the teacher’s desk.
      - LEDs remain lit slightly longer than the buzzer sound, allowing the teacher to identify both which student was flagged and what type of behaviour was detected.
        
