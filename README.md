@@ -65,7 +65,7 @@ This subsystem ensures that cheating attempts are quickly recognized without the
 6. SG90 Servo x1
 7. Buzzer x2
 8. Different Color LED x9 (different colors according to preference)
-9. Resistor (220 Ohm) x3
+9. Resistor (220 Ohm) x9
 10. Resistor (10k Ohm) x1
 11. Breadboard: Large 1x OR Medium 2x
 12. Jumper Wire (Male to Male, Male to Female) x2(each)
@@ -85,7 +85,7 @@ This subsystem ensures that cheating attempts are quickly recognized without the
 ---
 
 # Full Setup & Installation Guidelines (Module-wise & Step by Step)
-## Module 1: Student Access Authentication System
+## Module 1: Student Access Authentication Subsystem
 1. Ensure the circuit below is built before uploading the code. </br>
 <img src="Module 1 Access Authentication System/Student Access Authentication System Circuit.PNG" alt="Student Access Authentication System Circuit Diagram" width="700"> </br>
 
@@ -122,7 +122,7 @@ This subsystem ensures that cheating attempts are quickly recognized without the
 
 ---
 
-## Module 2: Cheating Detection System
+## Module 2: Cheating Detection Subsystem
 1. Ensure the circuit below is built before uploading the code. </br>
 <img src="Module 2 Cheating Detection System/Cheating Detection System Circuit.png" alt="Cheating Detection System" width="700"> </br>
 1. Connect the Arduino to the PC's USB port with the whole circuit setup.
