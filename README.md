@@ -144,5 +144,20 @@ This subsystem ensures that cheating attempts are quickly recognized without the
    
 -----
 
+# Drawbacks & Scope of Improvement
+1.  Dependency: Accuracy depends heavily on placement. While tuned to reduce false positives, false negatives (~20–25%) are still possible.
+2. Ultrasonic Sensors: Sensitive to noise, reflections, or nearby movement. Can be improved by using PIR or ToF sensors (e.g., VL53L0X).
+3. IR Obstacle Sensors: Affected by lighting and limited range. Could be replaced with shielded or break-beam IR sensors.
+4. LDR Sensor: Ambient light changes reduce accuracy; students may shield phone screens. Digital light sensors (e.g., TSL2561) are more reliable.
+5. RFID Security: Simple UID-based cards can be cloned. Use encrypted smart cards (e.g., MIFARE DESFire) and store credentials securely.
+6. Limited Detection Scope: Only detects head turns, leaning, or phone light. Cannot identify advanced cheating (earpieces, hidden notes, gestures).
+7. Scalability Issues: Each desk uses two Arduinos, raising cost and wiring complexity. A single Arduino/ESP32 with multiplexing or wireless could support multiple desks.
+8. Teacher Monitoring: Hard to manage many desks. Centralized logging via SD card, server, or IoT platform (Firebase, ThingsBoard) with web/mobile dashboards would help.
+9. No Event History: Current design only gives real-time alerts. Logging with timestamps would allow post-exam reviews.
+10. False Positives: Natural movements may trigger alerts. Software filtering (averaging, debounce, ML-based classification) and adjustable thresholds would reduce errors.
+11. Limited Feedback: LCD only shows access granted/denied. Should explain reasons (e.g., “Invalid Card”) and notify students when flagged.
+12. Disruptive Alerts: Buzzer may disturb exams. Replace with silent vibration alerts or visual dashboards.
+13. Mechanical Weakness: Servo lock may wear out. A more robust latch or solenoid lock is recommended.
+
 # License
 This project is licensed under the MIT License.
