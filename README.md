@@ -1,3 +1,8 @@
+# Project Pic
+<img src="Project Pictures/1.jpg" alt="1" width="250">    <img src="Project Pictures/2.jpg" alt="2" width="250">   <img src="Project Pictures/3.jpg" alt="3" width="250"> 
+
+---
+
 # Problem & Motivation
 During written exams, teachers cannot constantly monitor every student; unauthorized student access, unallocated seat occupying, and subtle cheating (looking at neighbors, using hidden phones) remain problems. A compact desk-attached system that enforces seat assignment and detects suspicious movement/light signatures can assist proctoring.
 
