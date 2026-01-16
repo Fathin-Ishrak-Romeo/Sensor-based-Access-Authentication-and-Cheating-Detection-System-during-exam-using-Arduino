@@ -137,7 +137,7 @@ This subsystem ensures that cheating attempts are quickly recognized without the
 <img src="Module 2 Cheating Detection System/Cheating Detection System Circuit.png" alt="Cheating Detection System" width="700"> </br>
 1. Connect the Arduino to the PC's USB port with the whole circuit setup.
 2. Open Arduino IDE.
-3. Go to: File > Preferences > Paste this link https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json within the "Additional board manager URLs" section > Click "OK". </br> <img src="images/9.png" alt="9" width="550"> </br><b> NOTE: </b> If other boards are already installed, add a comma (,) at the end of the existing link/s, paste the link with no space, and then click ‘OK’ as shown in the above picture.
+3. Go to: File > Preferences > Paste this link https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json within the "Additional board manager URLs" section > Click "OK". </br> <img src="images/9.png" alt="9" width="550"> </br><b> NOTE: </b> If other boards are already installed, add a comma (,) at the end of the existing link/s, paste the link with no space, and then click ‘OK’.
 4. Go to: Tools > Board > Boards Manager. </br> <img src="images/10.png" alt="10" width="360">
 5. Search: "MiniCore by MCUdude" > Select Version: 2.1.3 > Install. </br>
 ![Description](images/11.png)
